@@ -130,13 +130,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-.produto {
-  padding: 1rem;
+  margin: 1rem;
+  margin-top: 0;
 }
 
 .produto_img {
   width: 9.75rem;
+  margin-top: 1rem;
 }
 
 .produto_descricao {
@@ -157,13 +157,13 @@ body {
   font-weight: 600;
   color: var(--azul-100);
   text-decoration: none;
-  
 }
 
 .produto_verproduto:hover {
   font-weight: 600;
   color: var(--azul-10);
   text-decoration: none;
+
 }
 
 .rodape {
