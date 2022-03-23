@@ -62,7 +62,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
-    height: 192px;
+    height: 12rem;
 }
 
 .banner-title {
@@ -98,12 +98,26 @@ body {
   padding: 12px 16px;
 }
 
+/*inicio dos produtos*/
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.produto_img {
+  width: 9.75rem;
+}
+
 .produtos_cabecalho {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem;
-  margin-bottom: 0;
+  padding: 1rem;
+  margin-right: 1rem;
+  padding-bottom: 0;
   }
 
 .produtos_cabecalho h2, h3, h4 {
@@ -124,19 +138,6 @@ body {
   font-weight: bold;
   text-decoration: none;
   color: var(--azul-20);
-}
-
-.produtos_lista {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 1rem;
-  margin-top: 0;
-}
-
-.produto_img {
-  width: 9.75rem;
-  margin-top: 1rem;
 }
 
 .produto_descricao {
@@ -165,6 +166,12 @@ body {
   text-decoration: none;
 
 }
+
+.oculto_prod {
+  display: none;
+}
+
+/*inicio rodape*/
 
 .rodape {
   background-color: var(--azul-10);
@@ -268,4 +275,71 @@ body {
   color: var(--preto-100);
   font-size: 1rem;
   margin: 2rem 3.93rem;
+}
+
+/* organizacao outras midias */
+
+@media screen and (min-width: 768px) {
+  
+  
+
+  .galeria {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+  }
+
+}
+
+
+@media screen and (min-width: 1200px) {
+
+  .LISTA_PRODUTOS {
+    padding: 4rem 9.5rem;
+  }
+
+  .produtos_cabecalho {
+    padding-top: 0;
+  }
+
+  .galeria {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+  }
+
+  .oculto_prod {
+   display: grid; 
+  }
+  
+  .banner_container {
+    padding: 9.3rem 20rem 2rem 9.5rem;
+  }
+
+  .banner-title {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0;
+    font-size: 3.25rem;
+    font-weight: 700;
+  }
+  
+  .banner-texto {
+    margin: 1rem;
+    font-weight: 600;
+    font-size: 1.37rem;
+    }
+  
+  .banner-link {
+    margin-bottom: 1rem;
+    margin-top: 0;
+    margin-left: 1rem;
+    font-weight: 600;
+    color: var(--azul-10);
+    text-decoration: none;
+    background: var(--azul-100);
+    width: 90px;
+    padding: 12px 16px;
+    
+    }
+
+ 
 }
