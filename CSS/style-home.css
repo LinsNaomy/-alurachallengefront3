@@ -1,52 +1,12 @@
-:root {
-  --azul-100: #2A7AE4;
-  --azul-80: #5595E9;
-  --azul-20: #D4E4FA;
-  --branco: white;
-  --preto-100: #464646;
-  --azul-10: #EAF2FD;
-  --preto-50: #A2A2A2;
-
-  --raleway: "raleway", sans-serif;
-
-}
+@import url('reset.css');
+@import url('variaveis.css');
+@import url('style-login.css');
+@import url('Componentes/footer.css');
+@import url('Componentes/header.css');
 
 body {
   font-family: "raleway", sans-serif;
   font-size: 0.87rem;
-}
-
-.botao {
-
-}
-
-.header {
-  margin: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: white;
-  }
-
-.logo {
-  width: 6.25rem;
-}
-
-.login {
-    box-sizing: border-box;
-    text-align: center;
-    width: 8.31rem;
-    height: 2.5rem;
-    padding: 0.75rem 1rem;
-    border: 1px solid var(--azul-100);
-    color: var(--azul-100);
-    text-decoration: none;
-}
-
-.login:hover {
-  color: var(--branco);
-  text-decoration: none;
-  background: var(--azul-100);
 }
 
 .banner {
@@ -169,112 +129,6 @@ body {
 
 .oculto_prod {
   display: none;
-}
-
-/*inicio rodape*/
-
-.rodape {
-  background-color: var(--azul-10);
-}
-
-.menu_rodape {
-  padding: 1rem;
-  text-align: center;
- 
-}
-
-.logo_rodape {
-  width: 176px;
-  margin-bottom: 1rem;
-}
-
-.link {
-  font-weight: 500;
-  margin-bottom: 1rem;
-}
-
-.link_decoracao {
-  text-decoration: none;
-  color: var(--preto-100);
-}
-
-.link_decoracao:hover {
-  text-decoration: underline;
-  color: var(--preto-100);
-}
-.footer_formulario {
-  margin: 1rem;
-}
-
-.formulario legend {
-  font-size: 1rem;
-  font-weight: 700;
-  margin-bottom: .5rem;
-  color: var(--preto-100);
-}
-
-.formulario label {
-  display: block;
-  width: 100%;
-
-  padding: 10px 10px 0 10px;
-  border-radius: 4px;
-  box-sizing: border-box;
-
-  font-size: 12px;
-  color: #A2A2A2;
-
-  background-color: white;
-}
-
-.fale_conosco_formulario {
-  border-radius: 4px;
-  background-color: white;
-  margin-bottom: 1rem;
-}
-
-.input-padrao {
-  width: 98%;
-  box-shadow: 0 3px 2px #C8C8C8;
-  outline: none;
-  border: none; 
-}
-
-.formulario textarea {
-  font-size: 1rem;
-  font-weight: 400;
-  color: var(--preto-50);
-  
-  border-radius: 4px;
-  width: 96%;
-  padding-top: 1rem;
-  padding-left: .75rem;
-  background-color: var(--branco);
-  outline: none;
-  border: none; 
-}
-
-.formulario-botao {
-  font-weight: 600;
-  color: var(--branco);
-  text-decoration: none;
-  background: var(--azul-100);
-  cursor: pointer;
-  border: none; 
-  padding: .75rem 1rem;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin-bottom: 1rem;
-  margin-top: .5rem;
-}
-
-.desenvolvedor {
-  background-color: var(--branco);
-  text-align: center;
-  color: var(--preto-100);
-  font-size: 1rem;
-  margin: 2rem 3.93rem;
 }
 
 /* organizacao outras midias */

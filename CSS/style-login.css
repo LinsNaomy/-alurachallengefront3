@@ -1,16 +1,8 @@
-:root {
-    --azul-100: #2A7AE4;
-    --azul-80: #5595E9;
-    --azul-20: #D4E4FA;
-    --branco: white;
-    --preto-100: #464646;
-    --azul-10: #EAF2FD;
-    --preto-50: #A2A2A2;
-    --cinza: #F5F5F5;
-  
-    --raleway: "raleway", sans-serif;
-  
-  }
+@import url('reset.css');
+@import url('variaveis.css');
+@import url('style-login.css');
+@import url('Componentes/footer.css');
+@import url('Componentes/header.css');
 
 body {
   font-family: "raleway", sans-serif;
